@@ -9,10 +9,10 @@ let kleur_random;
 function setup() {
   //menu knoppen
   button = createButton('New');
-  button.position(300, 0);
+  button.position(300, 120);
   button.mousePressed(new_canvas);
   button = createButton('Save');
-  button.position(350, 0);
+  button.position(350, 120);
   button.mousePressed(bewaar);
  
   // default waardes
